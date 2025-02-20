@@ -1,0 +1,25 @@
+{
+  "name": "email-ethereum-solana",
+  "version": "1.0.0",
+  "description": "Starter code to demonstrate universal chain communication functionality",
+  "homepage": "https://github.com/pranshurastogi/push-chain-template#readme",
+  "bugs": {
+    "url": "https://github.com/pranshurastogi/push-chain-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranshurastogi/push-chain-template.git"
+  },
+  "license": "ISC",
+  "author": "Pranshu Rastogi",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@pushchain/devnet": "^1.0.7",
+    "ethers": "^6.13.5",
+    "viem": "^2.23.3"
+  }
+}
